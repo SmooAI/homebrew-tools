@@ -20,6 +20,24 @@ SmooAI is an AI-powered platform for helping businesses multiply their customer,
 brew tap SmooAI/tools
 ```
 
+## Available formulas
+
+### `th` — the Smoo AI CLI
+
+Single Rust binary that drives the whole Smoo AI platform from your terminal: agent orchestration, pearls (work tracking), Jira sync, `api.smoo.ai` (orgs / agents / knowledge / config / jobs / members / observability), `admin.smoo.ai` superadmin verbs, `auth.smoo.ai` OAuth login, sandbox / operator management, the coding TUI, worktrees, audit, and more.
+
+```bash
+brew install SmooAI/tools/th
+
+# verify
+th --version
+th --help
+```
+
+Then `th up` to bring the local platform up, `th code` to launch the coding TUI, or `th api whoami` to verify your Smoo platform login. Full docs at [github.com/SmooAI/smooth](https://github.com/SmooAI/smooth).
+
+Available on macOS (Apple Silicon) and Linux (x86_64 + arm64). Windows support is in flight — pearl `th-a165b4` tracks the Cargo feature gating needed for `th` to build without the microsandbox / TUI subtree.
+
 ## Available casks
 
 ### Smooblue
@@ -34,7 +52,7 @@ Source + issues: [github.com/SmooAI/smooblue](https://github.com/SmooAI/smooblue
 
 ## How updates land here
 
-Each `vX.Y.Z` tag on an upstream SmooAI repo triggers a workflow that bumps the corresponding cask file in this tap with the new `version` + `sha256`. So running `brew upgrade --cask smooblue` will always pull the latest published release without us hand-editing this repo.
+Each `vX.Y.Z` tag on an upstream SmooAI repo triggers a workflow that bumps the corresponding formula or cask file in this tap with the new `version` + `sha256`. So `brew upgrade th` and `brew upgrade --cask smooblue` will always pull the latest published release without us hand-editing this repo.
 
 ## Contact
 
