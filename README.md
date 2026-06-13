@@ -1,24 +1,18 @@
 <p align="center">
-  <a href="https://smoo.ai"><img src="https://smoo.ai/images/logo/logo.svg" alt="Smoo AI" width="220" /></a>
-</p>
-
-<h1 align="center">homebrew-tools</h1>
-
-<p align="center">
-  <strong>The <a href="https://brew.sh">Homebrew</a> tap for Smoo AI's open-source desktop tools.</strong>
+  <a href="https://smoo.ai"><img src=".github/banner.png" alt="SmooAI Tools — the Homebrew tap for Smoo AI desktop tools" width="100%" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Smoo_AI-platform-00A6A6?style=flat-square" alt="Smoo AI">
-  <img src="https://img.shields.io/badge/license-MIT-F49F0A?style=flat-square" alt="license">
+  <a href="https://smoo.ai"><img src="https://img.shields.io/badge/Smoo_AI-platform-00A6A6?style=for-the-badge&labelColor=020618" alt="Smoo AI"></a>
+  <img src="https://img.shields.io/badge/license-MIT-F49F0A?style=for-the-badge&labelColor=020618" alt="license">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Homebrew-tap-FF6B6C?style=flat-square" alt="Homebrew tap">
 </p>
 
 <p align="center">
-  <a href="#-install">Install</a> ·
-  <a href="#-available-formulas">Formulas</a> ·
-  <a href="#-available-casks">Casks</a> ·
-  <a href="#-part-of-smoo-ai">Platform</a>
+  <a href="#-install"><b>Install</b></a> &nbsp;·&nbsp; <a href="#-available-formulas"><b>Formulas</b></a> &nbsp;·&nbsp; <a href="#-available-casks"><b>Casks</b></a> &nbsp;·&nbsp; <a href="#-part-of-smoo-ai"><b>Platform</b></a>
 </p>
 
 ---
@@ -67,7 +61,11 @@ Each `vX.Y.Z` tag on an upstream Smoo AI repo triggers a workflow that bumps the
 
 ## 🧩 Part of Smoo AI
 
-This tap is part of the [Smoo AI](https://smoo.ai) platform — an AI-powered business platform with AI built into every product. It distributes desktop tools like [`th`](https://github.com/SmooAI/smooth) (the Smoo AI CLI) and [`smooblue`](https://github.com/SmooAI/smooblue) (the Bluesky client).
+This tap is built and open-sourced by **[Smoo AI](https://smoo.ai)** — the AI-powered business platform with AI built into every product: CRM, customer support, campaigns, field service, observability, and developer tools.
+
+- 🧰 **More open source from Smoo AI** — [smoo.ai/open-source](https://smoo.ai/open-source)
+- 🍺 **It distributes** — [`th`](https://github.com/SmooAI/smooth) (the Smoo AI CLI) and [`smooblue`](https://github.com/SmooAI/smooblue) (the Bluesky client)
+- 🧩 **Sibling packages** — [@smooai/logger](https://github.com/SmooAI/logger), [@smooai/config](https://github.com/SmooAI/config)
 
 ## 📇 Contact
 
