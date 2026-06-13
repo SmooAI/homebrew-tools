@@ -15,7 +15,7 @@ cask "smooblue" do
   # Apple Silicon only today — the upstream release pipeline doesn't
   # ship an x86_64 macOS asset. Build from source on Intel Macs.
   depends_on arch: :arm64
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Smooblue.app"
 
