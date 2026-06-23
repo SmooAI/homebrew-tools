@@ -10,18 +10,18 @@ class Th < Formula
   on_macos do
     on_arm do
       url "https://github.com/SmooAI/smooth/releases/download/v0.14.1/th-macos-arm64.tar.gz"
-      sha256 "4671dd939024fe261eca2358944c00951dc279dd2675c00c9e47b4745be9ffa1"
+      sha256 "b811d73ebf33715dbfe580d6e4cf11f5d706234b1a620b236c5d8a951ef5641d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/SmooAI/smooth/releases/download/v0.14.1/th-linux-arm64.tar.gz"
-      sha256 "e14017ec9d66e6d9ea7324f91f055b10ae4ed98ae5e752d143d49cc99f665589"
+      sha256 "ae596317a3d419d8d2dd82edc5a03f5296377b7616c5efa9af6ec0b04573f589"
     end
     on_intel do
       url "https://github.com/SmooAI/smooth/releases/download/v0.14.1/th-linux-x86_64.tar.gz"
-      sha256 "9078381c943ef7d6b8584c73a75d660b0839c80b88615b65358de414edaa201a"
+      sha256 "44cce5df74ae9dbb77af011a7ba47cfedd6dbdae793488f849320015a532118f"
     end
   end
 
