@@ -1,6 +1,6 @@
 cask "smooblue" do
-  version "1.28.0"
-  sha256 "c7ccc21c42c6ee98b1a0b0ff89a01e5829825cb4eeb4e5673a4e9f345c8f0a9c"
+  version "1.28.1"
+  sha256 "20217ec4879318f69409915dc03534dfa9658ce85dcadd7c6da644b4381e140a"
 
   url "https://github.com/SmooAI/smooblue/releases/download/v#{version}/Smooblue-macos-arm64.zip"
   name "Smooblue"
